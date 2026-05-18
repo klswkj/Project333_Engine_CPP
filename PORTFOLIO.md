@@ -61,16 +61,17 @@ Project333
 
 ## 구현 상태 요약
 
-|               영역 |    상태 | 설명 |
-| Core memory system |    구현 | 전역 memory facade와 allocator 교체 구조 |
-| HeapAllocator      |    구현 | intrusive block metadata와 RB-tree 기반 free block 관리 |
-| Custom containers  |    구현 | Vector, Array, Queue, Stack, FixedSlotPool |
-| Lock-free queue    |    구현 | SPSC, MPSC, SPMC bounded queue |
-| Threading          |    구현 | Win32 CriticalSection wrapper |
-| Tests              |    구현 | GoogleTest 기반 Core system 검증 | 
-| Application layer  | 진행 중 | Win32 platform application과 event 전달 구조 |
-| RHI layer          | 진행 중 | Device, Factory, SwapChain interface 설계 |
-| D3D12 backend      | 진행 중 | Device/CommandQueue/Fence 흐름 구현 중 |
+| 영역               | 상태   | 설명                                                  |
+| ------------------ | ------ | ----------------------------------------------------- |
+| Core memory system | 구현   | 전역 memory facade와 allocator 교체 구조              |
+| HeapAllocator      | 구현   | intrusive block metadata와 RB-tree 기반 free block 관리 |
+| Custom containers  | 구현   | Vector, Array, Queue, Stack, FixedSlotPool            |
+| Lock-free queue    | 구현   | SPSC, MPSC, SPMC bounded queue                        |
+| Threading          | 구현   | Win32 CriticalSection wrapper                         |
+| Tests              | 구현   | GoogleTest 기반 Core system 검증                      |
+| Application layer  | 진행 중 | Win32 platform application과 event 전달 구조          |
+| RHI layer          | 진행 중 | Device, Factory, SwapChain interface 설계             |
+| D3D12 backend      | 진행 중 | Device/CommandQueue/Fence 흐름 구현 중  
 
 ## 핵심 구현
 
